@@ -1,4 +1,82 @@
 /* Common Style */
-body{
+body {
     font-family: 'Work Sans', sans-serif;
 }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header style start */
+
+.header-container {
+    max-width: 1440px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px auto 0;
+}
+
+.brand-container {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.gamer {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.gamer span {
+    color: #FF42A5;
+}
+
+.menu-container {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-content {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    color: #3C354F;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.menu-content li {
+    margin-right: 30px;
+}
+
+.follow-us-content {
+    display: flex;
+    align-items: center;
+    background: rgba(11, 2, 35, 0.10);
+    border-radius: 8px;
+    padding: 20px;
+    gap: 25px;
+}
+
+.follow-us-content p {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.follow-us-icon-container {
+    width: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.youtube {
+    color: red;
+}
+
+/* header style end */

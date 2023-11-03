@@ -1,0 +1,38 @@
+/* for mobile device */
+@media screen and (max-width:425px) {
+    /* header style start */ 
+    .header-container {
+        flex-direction: column;
+        margin: 10px auto;
+    }
+
+    .brand-container {
+        margin-top: 60px;
+        margin-bottom: 30px;
+    }
+
+    .brand-container,
+    .menu-container {
+        width: auto;
+    }
+
+    .menu-container,
+    .menu-content {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .menu-content {
+        text-align: center;
+        align-items: center;
+    }
+
+    .menu-content li {
+        margin-right: 0px;
+    }
+    .developers{
+        margin-top: 35px;
+        margin-bottom: 35px;
+    }
+    /* header style end */ 
+}

@@ -1,0 +1,16 @@
+/* for medium devices */
+
+@media screen and (max-width:768px) {
+     /* header style start */ 
+    .header-container{
+        flex-direction: column;
+    }
+    .brand-container,
+    .menu-container {
+        width: auto;
+    }
+    .menu-container{
+        margin-top: 35px;
+    }
+     /* header style end */ 
+}
