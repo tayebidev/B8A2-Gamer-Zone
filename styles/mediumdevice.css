@@ -1,16 +1,42 @@
 /* for medium devices */
 
 @media screen and (max-width:768px) {
-     /* header style start */ 
-    .header-container{
+
+    /* header style start */
+    .header-container {
         flex-direction: column;
     }
+
     .brand-container,
     .menu-container {
         width: auto;
     }
-    .menu-container{
+
+    .menu-container {
         margin-top: 35px;
     }
-     /* header style end */ 
+
+    /* header style end */
+    /* Play Like The GOAT section start */
+    .banner-container {
+        flex-direction: column-reverse;
+    }
+
+    .banner-play-container {
+        width: auto;
+        background-position: 100%;
+        background-size: cover;
+    }
+
+    .banner-container img {
+        width: 80%;
+        margin-bottom: 05px;
+    }
+
+    .play-container {
+        padding: 30px;
+        margin-right: 0;
+    }
+
+    /* Play Like The GOAT section end */
 }

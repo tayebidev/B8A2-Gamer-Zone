@@ -16,7 +16,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 20px auto 0;
+    margin: 0 auto;
     padding: 40px 0;
 }
 
@@ -37,7 +37,6 @@ body {
 }
 
 .menu-container {
-    border: 01px solid red;
     width: 50%;
     display: flex;
     align-items: center;
@@ -84,82 +83,91 @@ body {
 /* header style end */
 
 /* <!-- Play Like The GOAT section start --> */
-.banner-container{
+.banner-container {
     display: flex;
     align-items: center;
+
 }
-.banner-play-container{
-    border: 01px solid green;
+
+.banner-play-container {
+    width: 50%;
+    height: 100%;
+    margin-right: 10px;
     background-image: url(../images/Group\ 14.png);
     background-repeat: no-repeat;
-    width: 50%;
-    /* background-size:50%; */
+    background-size: cover;
 }
-.play-container{
-    border: 02px solid tomato;
-    /* width: 50%; */
-    justify-content: center;
+
+.play-container {
     padding: 148px 200px;
 }
 
-.play-like{
-    border: 01px solid red;
+.play-like {
     color: #0B0223;
     font-size: 40px;
     font-weight: 600;
 }
-.play-title{
+
+.play-title {
     font-size: 98px;
     font-weight: 700;
-    background-image:linear-gradient(180deg, #F948B2 0%, #8758F1 100%) ;
+    background-image: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     color: transparent;
     -webkit-background-clip: text;
     margin-bottom: 25px;
 
 }
-.instant-play, .download{
+
+.instant-play,
+.download {
     display: flex;
     align-items: center;
     margin-right: 100px;
     gap: 12px;
-    color:#534C64 ;
+    color: #534C64;
     font-size: 20px;
     font-weight: 500;
 }
-.download{
+
+.download {
     margin-top: 17px;
     margin-bottom: 17px;
 }
-.supported{
+
+.supported {
     display: flex;
     align-items: center;
     gap: 07px;
-    color:#534C64 ;
+    color: #534C64;
     font-size: 20px;
     font-weight: 500;
     margin-bottom: 40px;
 }
-.instant-play span{
+
+.instant-play span {
     color: #FF42A5;
 }
-.download span{
+
+.download span {
     color: #FF42A5;
 }
-.play-button{
-    border: 01px solid orange;
-}
-.play-button button{
+
+.play-button {}
+
+.play-button button {
     padding: 21px 40px;
-    border-radius:48px ;
+    border-radius: 48px;
     color: #FFF;
     border: 0px;
     font-size: 20px;
-    font-weight:600;
+    font-weight: 600;
 }
-.sign-in{
-    background-color:#FF42A5 ;
+
+.sign-in {
+    background-color: #FF42A5;
     margin-right: 20px;
 }
-.go-rogue{
-    background-color:#4EC5F7 ;
+
+.go-rogue {
+    background-color: #4EC5F7;
 }

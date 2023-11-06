@@ -1,9 +1,10 @@
 /* for mobile device */
 @media screen and (max-width:425px) {
-    /* header style start */ 
+
+    /* header style start */
     .header-container {
         flex-direction: column;
-        margin: 10px auto;
+        margin: 0 auto;
     }
 
     .brand-container {
@@ -30,9 +31,56 @@
     .menu-content li {
         margin-right: 0px;
     }
-    .developers{
+
+    .developers {
         margin-top: 35px;
         margin-bottom: 35px;
     }
-    /* header style end */ 
+
+    /* header style end */
+
+    /* Play Like The GOAT section start */
+    .banner-container {
+        flex-direction: column-reverse;
+    }
+
+    .banner-play-container {
+        width: auto;
+        background-position: 100%;
+        background-size: cover;
+    }
+
+    .banner-container img {
+        width: 80%;
+        margin-bottom: 05px;
+    }
+
+    .play-container {
+        padding: 30px;
+        margin-right: 0;
+    }
+
+    .play-like {
+        font-size: 16px;
+    }
+
+    .play-title {
+        font-size: 32px;
+    }
+
+    .instant-play,
+    .download,
+    .supported {
+        font-size: 14px;
+    }
+
+    .play-button button {
+        padding: 10px;
+        border-radius: 48px;
+        font-size: 12px;
+    }
+
+    .sign-in {
+        margin-right: 20px;
+    }
 }
