@@ -9,6 +9,15 @@ body {
     box-sizing: border-box;
 }
 
+.primary-button button {
+    padding: 21px 40px;
+    border-radius: 48px;
+    color: #FFF;
+    border: 0px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
 /* header style start */
 
 .header-container {
@@ -115,7 +124,6 @@ body {
     color: transparent;
     -webkit-background-clip: text;
     margin-bottom: 25px;
-
 }
 
 .instant-play,
@@ -152,16 +160,7 @@ body {
     color: #FF42A5;
 }
 
-.play-button {}
 
-.play-button button {
-    padding: 21px 40px;
-    border-radius: 48px;
-    color: #FFF;
-    border: 0px;
-    font-size: 20px;
-    font-weight: 600;
-}
 
 .sign-in {
     background-color: #FF42A5;
