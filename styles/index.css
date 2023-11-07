@@ -16,6 +16,7 @@ body {
     border: 0px;
     font-size: 20px;
     font-weight: 600;
+    cursor:pointer;
 }
 
 /* header style start */
@@ -95,7 +96,6 @@ body {
 .banner-container {
     display: flex;
     align-items: center;
-
 }
 
 .banner-play-container {
@@ -160,8 +160,6 @@ body {
     color: #FF42A5;
 }
 
-
-
 .sign-in {
     background-color: #FF42A5;
     margin-right: 20px;
@@ -170,3 +168,67 @@ body {
 .go-rogue {
     background-color: #4EC5F7;
 }
+
+/* <!-- Play Like The GOAT section end --> */
+
+/* <!-- We are gamer section start --> */
+.we-are-gamer {
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 13.13%, rgba(255, 66, 165, 0.03) 87.94%);
+
+}
+
+.gamer-container {
+    border: 01px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: right;
+    padding: 55px 240px;
+}
+
+.gamer-container img {
+    border: 01px solid green;
+    width: 50%;
+}
+
+.gamer-content {
+    width: 50%;
+}
+
+.gamer-content h3 {
+    font-size: 48px;
+    font-weight: 700;
+    background-image: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
+.gamer-description {
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+.know-more {
+    background-color: #F948B2;
+    font-size: 28px;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+
+.our-purpose {
+    color: #534C64;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 25px;
+}
+
+#unleash {
+    font-size: 32px;
+    font-weight: 700;
+}
+/* <!-- We are gamer section end --> */
