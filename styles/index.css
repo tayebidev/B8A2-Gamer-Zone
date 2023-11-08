@@ -16,7 +16,7 @@ body {
     border: 0px;
     font-size: 20px;
     font-weight: 600;
-    cursor:pointer;
+    cursor: pointer;
 }
 
 /* header style start */
@@ -181,15 +181,18 @@ body {
     max-width: 1440px;
     display: flex;
     align-items: center;
-    margin: 0 auto;
+    margin: 0 auto 120px;
 }
-.gamer-img{
+
+.gamer-img {
     width: 50%;
 }
-.gamer-content{
+
+.gamer-content {
     width: 50%;
 }
-.gamer-content{
+
+.gamer-content {
     text-align: right;
 }
 
@@ -232,6 +235,100 @@ body {
 
 #unleash {
     font-size: 32px;
-    font-weight: 700;f
+    font-weight: 700;
 }
+
 /* <!-- We are gamer section end --> */
+
+/* <!-- Online games funny videos section start --> */
+.onlinegames-container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.onlinegames-container h3 {
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 18px;
+    text-align: center;
+}
+
+.onlinegames-container span {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
+.onlinegames-container>p {
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 45px;
+
+}
+
+.onlinegames-photos {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    border-radius: 05px;
+}
+
+.game-group .btn {
+    max-width: 100%;
+    position: absolute;
+    border-radius: 50%;
+    border: none;
+    top: 30%;
+    left: 63%;
+    transform: translate(-50%, -50%);
+    font-size: 70px;
+    font-weight: 400;
+    color: #fff;
+    cursor: pointer;
+    background: none;
+    opacity: 0.5;
+}
+
+.game-group .btn:hover {
+    opacity: 1.0;
+    color: #F948B2;
+}
+
+.game-group .watch-now {
+    max-width: 100%;
+    position: absolute;
+    top: 30%;
+    left: 63%;
+    transform: translate(-50%, 50%);
+    font-size: 42px;
+    font-weight: 600;
+    color: #FF42A5;
+    cursor: pointer;
+    background: none;
+}
+
+.game-group img {
+    width: 342px;
+}
+
+#game-group-03 {
+    opacity: 0.5;
+}
+
+#game-group-03:hover {
+    opacity: 1.0;
+}
+
+.game-group-description {
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+    width: 342px;
+    text-align: left;
+    margin-top: 25px;
+}
+
+/* <!-- Online games funny videos section end --> */

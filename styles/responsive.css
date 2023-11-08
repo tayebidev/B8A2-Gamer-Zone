@@ -99,24 +99,71 @@
     .gamer-img {
         width: auto;
     }
-    .gamer-content{
+
+    .gamer-content {
         text-align: center;
     }
+
     .gamer-content h3 {
-       font-size: 30px;
+        font-size: 30px;
     }
-    .gamer-description{
+
+    .gamer-description {
         font-size: 12px;
         line-height: 20px;
     }
-    .our-purpose{
+
+    .our-purpose {
         font-size: 16px;
     }
-    #unleash{
+
+    #unleash {
         font-size: 22px;
     }
+
     /* <!-- We are gamer section end --> */
 
+    /* <!-- Online games funny videos section start --> */
+
+    .onlinegames-container h3 {
+        font-size: 28px;
+    }
+
+    .onlinegames-container>p {
+        font-size: 10px;
+    }
+
+    .onlinegames-photos {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        text-align: center;
+    }
+
+    .game-group img {
+        max-width: 100%;
+    }
+    .game-group-description {
+        font-size: 10px;
+        width: 100%;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .game-group .btn {
+        top: 30%;
+        left: 53%;
+        transform: translate(-50%, -50%);
+    }
+
+    .game-group .watch-now {
+        top: 32%;
+        left: 53%;
+        transform: translate(-50%, 50%);
+        font-size: 25px;
+    }
+
+    /* <!-- Online games funny videos section end --> */
 
 
 
