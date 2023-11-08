@@ -4,7 +4,6 @@
     /* header style start */
     .header-container {
         flex-direction: column;
-        margin: 0 auto;
     }
 
     .brand-container {
@@ -83,4 +82,42 @@
     .sign-in {
         margin-right: 20px;
     }
+
+    /* Play Like The GOAT section end */
+
+    /* <!-- We are gamer section start --> */
+    .we-are-gamer {
+        background: none;
+    }
+
+    .gamer-container {
+        flex-direction: column;
+        padding: 0 20px;
+    }
+
+    .gamer-content,
+    .gamer-img {
+        width: auto;
+    }
+    .gamer-content{
+        text-align: center;
+    }
+    .gamer-content h3 {
+       font-size: 30px;
+    }
+    .gamer-description{
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .our-purpose{
+        font-size: 16px;
+    }
+    #unleash{
+        font-size: 22px;
+    }
+    /* <!-- We are gamer section end --> */
+
+
+
+
 }

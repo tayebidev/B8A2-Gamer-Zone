@@ -178,21 +178,24 @@ body {
 }
 
 .gamer-container {
-    border: 01px solid red;
+    max-width: 1440px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    margin: 0 auto;
+}
+.gamer-img{
+    width: 50%;
+}
+.gamer-content{
+    width: 50%;
+}
+.gamer-content{
     text-align: right;
-    padding: 55px 240px;
 }
 
-.gamer-container img {
-    border: 01px solid green;
-    width: 50%;
-}
-
-.gamer-content {
-    width: 50%;
+.gamer-img img {
+    width: 100%;
+    height: 100%;
 }
 
 .gamer-content h3 {
@@ -229,6 +232,6 @@ body {
 
 #unleash {
     font-size: 32px;
-    font-weight: 700;
+    font-weight: 700;f
 }
 /* <!-- We are gamer section end --> */

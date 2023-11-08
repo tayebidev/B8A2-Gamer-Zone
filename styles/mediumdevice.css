@@ -37,6 +37,20 @@
         padding: 30px;
         margin-right: 0;
     }
-
     /* Play Like The GOAT section end */
+
+    /* <!-- We are gamer section start --> */
+    .gamer-container {
+        flex-direction: column;
+        padding: 0 20px;
+    }
+
+    .gamer-content,
+    .gamer-img {
+        width: auto;
+    }
+    .gamer-content{
+        text-align: center;
+    }
+    /* <!-- We are gamer section end --> */
 }
