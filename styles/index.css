@@ -174,7 +174,6 @@ body {
 /* <!-- We are gamer section start --> */
 .we-are-gamer {
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 13.13%, rgba(255, 66, 165, 0.03) 87.94%);
-
 }
 
 .gamer-container {
@@ -332,3 +331,53 @@ body {
 }
 
 /* <!-- Online games funny videos section end --> */
+
+/* <!--  Play Instantly Section start--> */
+.play-instantly-container {
+    max-width: 1440px;
+    margin: 100px auto 100px;
+    display: flex;
+    align-items: center;
+}
+
+.play-instantly-content {
+    width: 50%;
+    text-align: right;
+    margin-right: 250px;
+}
+
+.play-instantly-content h3 {
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+    margin-bottom: 24px;
+}
+
+.play-instantly {
+    background: linear-gradient(180deg, #F948B2 10%, #8758F1 90%);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
+.play-instantly-content p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.instantly-image-content {
+    width: 50%;
+}
+
+.instantly-image-content img {
+    width: 600px;
+}
+
+.instantly-image-content .cat-doll-img {
+    width: 300px;
+    margin-top: -250px;
+    margin-left: -150px;
+}
+
+/* <!--  Play Instantly Section end--> */

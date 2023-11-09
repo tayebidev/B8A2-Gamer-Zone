@@ -134,8 +134,9 @@
     }
 
     .onlinegames-photos {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
+        flex-direction: column;
+        /* display: grid;
+        grid-template-columns: repeat(1, 1fr); */
         text-align: center;
     }
 
@@ -151,7 +152,7 @@
     }
 
     .game-group .btn {
-        top: 30%;
+        top: 80%;
         left: 53%;
         transform: translate(-50%, -50%);
     }
@@ -164,6 +165,11 @@
     }
 
     /* <!-- Online games funny videos section end --> */
+
+    /* <!--  Play Instantly Section start--> */
+    .play-instantly-container {
+        flex-direction: column;
+    }
 
 
 
