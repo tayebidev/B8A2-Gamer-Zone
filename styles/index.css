@@ -371,11 +371,12 @@ body {
 }
 
 .instantly-image-content img {
-    width: 600px;
+    width: auto ;
+
 }
 
 .instantly-image-content .cat-doll-img {
-    width: 300px;
+    width: auto;
     margin-top: -250px;
     margin-left: -150px;
 }
