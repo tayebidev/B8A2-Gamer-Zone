@@ -59,8 +59,11 @@
 
     /* <!-- Online games funny videos section start --> */
     .onlinegames-photos {
-        flex-direction: column;
-        text-align: center;
+        /* flex-direction: column;
+        text-align: center; */
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
     }
 
     .game-group img {
@@ -90,6 +93,7 @@
 
     /* <!-- Online games funny videos section end --> */
 
-
-
+    /* <!--  Play Instantly Section start--> */
+    
+ 
 }
