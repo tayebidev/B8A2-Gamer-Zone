@@ -19,6 +19,7 @@ body {
     cursor: pointer;
 }
 
+
 /* header style start */
 
 .header-container {
@@ -431,3 +432,76 @@ body {
     font-weight: 600;
     color: #fff;
 }
+/* <!-- Games section end --> */
+
+/* footer section start */
+footer{
+    background-color:#0B0223 ;
+    min-height: 50px;
+}
+.footer-container{
+    text-align: center;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.footer-content{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+    padding: 100px 0 0;
+}
+#amer{
+    color: #fff;
+}
+.footer-function-content{
+    color: #fff;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.footer-function-content> ul{
+    display:flex;
+    justify-content: center;
+    gap: 50px;
+}
+.footer-function-content li{
+    list-style: none;
+    font-size: 18px;
+    font-weight: 600;
+}
+.footer-web-content{
+    color: #fff;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.footer-web-content> ul{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+.footer-web-content li{
+    list-style: none;
+    font-size: 18px;
+    font-weight: 600;
+}
+.footer-policy-content{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.footer-policy-content{
+    color:rgba(255, 255, 255, 0.60) ;
+    font-size: 16px;
+    font-weight: 500;
+}
+.copyright{
+    margin-top: 20px;
+    padding:  0 0 100px;
+}
+.copyright P{
+    color:rgba(255, 255, 255, 0.60) ;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* footer section end */
