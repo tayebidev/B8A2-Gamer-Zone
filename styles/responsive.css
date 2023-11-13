@@ -134,9 +134,7 @@
     }
 
     .onlinegames-photos {
-        /* flex-direction: column; */
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
+        flex-direction: column;
         text-align: center;
         padding: 20px;
     }
@@ -154,16 +152,15 @@
     }
 
     .game-group .btn {
-        top: 80%;
+        top: 55%;
         left: 53%;
         transform: translate(-50%, -50%);
     }
 
     .game-group .watch-now {
-        top: 32%;
+        top: 55%;
         left: 53%;
         transform: translate(-50%, 50%);
-        font-size: 25px;
     }
 
     /* <!-- Online games funny videos section end --> */
